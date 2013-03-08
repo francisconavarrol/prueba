@@ -1,9 +1,9 @@
-
-#cabecera
-{
-    background-color:#FFFFFF;
-    margin-top: -16px;
+body {
+	background: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	color: #111;
 }
+
 a {
 	color: #111;
 	text-decoration: underline;
@@ -13,12 +13,14 @@ a:hover {
 	color: #444;
 }
 
+
+
+
 #container {
 	width: auto;
 	margin: 0;
 	line-height: 14pt;
 	font-size: 11pt;
-	background-image: url('/smartnetworks/images/footer.gif') repeat;
 }
 
 #top {
@@ -29,10 +31,6 @@ a:hover {
 
 .logo {
 	float: left;
-}
-
-.logo img{
-    margin-top: 11px;
 }
 
 .search {
@@ -51,7 +49,7 @@ a:hover {
 	padding:10px 95px 10px 25px; 
 	background:#ddd; 
 	border:1px solid #bbb;
-	background: url('/smartnetworks/images/search.jpg') left center no-repeat;	
+	background: URL('/tino/images/search.jpg') left center no-repeat;	
 }
 
 #buscar input[type="submit"] {
@@ -71,7 +69,7 @@ a:hover {
 
 a.fb {
 	color: #111;
-	background: url('/smartnetworks/images/fb.gif') left center no-repeat;
+	background: URL('/tino/images/fb.gif') left center no-repeat;
 	padding-left: 20px;
 }
 
@@ -169,11 +167,11 @@ ul#sidebarlist li.expand {
 	padding: 7px 15px;
 	margin: 0 10px;
 	border-bottom: 1px solid #b9b9b7;
-	background: url('/smartnetworks/images/list.gif') left 10px no-repeat;
+	background: URL('/tino/images/list.gif') left 10px no-repeat;
 }
 
 ul#sidebarlist li.open {
-	background: url('/smartnetworks/images/list-expand.gif') left 10px no-repeat;
+	background: URL('/tino/images/list-expand.gif') left 10px no-repeat;
 }
 
 ul#sidebarlist .collapse li {
@@ -223,18 +221,18 @@ ul#sidebarlist .collapse li:first-child {
 #slides ul.pagination li {
 	float: left;
 	text-indent: -9999px;
-	background: url('/smartnetworks/images/pagination.png') no-repeat;
+	background: URL('/tino/images/pagination.png') no-repeat;
 	height: 25px;
 	width: 25px;
 	margin-top: -40px;
 }
 
 #slides ul.pagination li:hover {
-	background: url('/smartnetworks/images/pagination-hover.png') no-repeat;
+	background: URL('/tino/images/pagination-hover.png') no-repeat;
 }
 
 #slides ul.pagination li.current {
-	background: url('/smartnetworks/images/pagination-current.png') no-repeat;
+	background: URL('/tino/images/pagination-current.png') no-repeat;
 }
 
 #bottomindex {
@@ -307,7 +305,7 @@ ul#sidebarlist .collapse li:first-child {
 }
 
 p.comments {
-	background: url('/smartnetworks/images/comments.gif') left center no-repeat;
+	background: URL('/tino/images/comments.gif') left center no-repeat;
 	line-height: 13pt;
 	padding-left: 20px;
 }
@@ -323,12 +321,12 @@ p.comments {
 }
 
 .result span.phone {
-	background: url('/smartnetworks/images/phone.gif') left center no-repeat;
+	background: URL('/tino/images/phone.gif') left center no-repeat;
 	padding-left: 15px;
 }
 
 .result span.location {
-	background: url('/smartnetworks/images/location.gif') left center no-repeat;
+	background: URL('/tino/images/location.gif') left center no-repeat;
 	padding-left: 15px;
 	margin-left: 10px;
 }
@@ -357,12 +355,13 @@ p.comments {
 }
 
 .logoreview  img {
-	max-width: 100px;
+	max-width: 260px;
 	height: auto;
 }
 
 .metareview {
 	padding: 10px 5px;
+    height: 137px;
 }
 
 .metareview h2 {
@@ -514,7 +513,7 @@ p.comments {
 }
 
 .footer {
-	background: url('/smartnetworks/images/footer.gif') repeat #4a362f;
+	background: URL('/tino/images/footer.gif') repeat #4a362f;
 	box-shadow: inset 0px 7px 9px rgba(0,0,0,0.3);
 	color: #e6d8cf;
 	clear: both;
@@ -603,11 +602,11 @@ p.comments {
 }
 
 #followus li.footerfb {
-	background: url('/smartnetworks/images/fb.png') right center no-repeat;
+	background: URL('/tino/images/fb.png') right center no-repeat;
 }
 
 #followus li.tw {
-	background: url('/smartnetworks/images/tw.png') right center no-repeat;
+	background: URL('/tino/images/tw.png') right center no-repeat;
 }
 
 #copy {
@@ -625,7 +624,7 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
- div, span, object, iframe,
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
@@ -650,17 +649,6 @@ time, mark, audio, video {
 
 body {
     line-height:1;
-}
-
-html{
-    background: url('/smartnetworks/images/footer.gif') repeat !important;
-}
-body {
-	background: #fff;
-	font-family: 'Droid Sans', sans-serif;
-	color: #111;
-	background: url('/smartnetworks/images/footer.gif') repeat !important;
-	margin:0px;
 }
 
 article,aside,details,figcaption,figure,
@@ -831,7 +819,7 @@ legend
 }
 .ofertatexto
 {
-    color:#7C211E;
+    color:#5A0A09;
     font-weight:bold; 
     text-align:center;            
 }
@@ -855,7 +843,7 @@ legend
 	width: 974px;
 	background: #B0232A;
 	font-size: 1em;
-	background: url('/smartnetworks/subnav_btn.png') repeat-x;
+	background: URL('/tino/subnav_btn.png') repeat-x;
 }
 ul.topnav li {
 	float: left;
@@ -873,13 +861,13 @@ ul.topnav li a{
 	float: left;
 }
 ul.topnav li a:hover{
-	background: url('/smartnetworks/subnav_btn2.png') no-repeat center top;
+	background: URL('/tino/subnav_btn2.png') no-repeat center top;
 }
 ul.topnav li span { /*--Drop down trigger styles--*/
 	width: 17px;
 	height: 35px;
 	float: left;
-	background: url('/smartnetworks/subnav_btn.png') no-repeat center top;
+	background: URL('/tino/subnav_btn.png') no-repeat center top;
 }
 ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
 ul.topnav li ul.subnav {
@@ -905,21 +893,23 @@ ul.topnav li ul.subnav li{
 html ul.topnav li ul.subnav li a {
 	float: left;
 	width: 245px;
-	background: #7C211E url('/smartnetworks/dropdown_linkbg.gif') no-repeat 10px center;
+	background: #7C211E URL('/tino/dropdown_linkbg.gif') no-repeat 10px center;
 	padding-left: 20px;
 }
 html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
-	background: #B0232A url('/smartnetworks/dropdown_linkbg.gif') no-repeat 10px center; 
+	background: #B0232A URL('/tino/dropdown_linkbg.gif') no-repeat 10px center; 
 }
 .Cupon_Container
 {
     width:1070px;
     margin:auto;
 }
-.Cupon
-{
-    margin:auto;
-    width:920px;
+.Cupon{
+    width:520px;
+    height:110px;
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     border-color:#969696;
@@ -929,56 +919,53 @@ html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
     padding-top:10px;
     padding-bottom:10px;
     margin-bottom:10px;    
+    overflow:hidden;
 }
 .Cupon .first_field{
+    float:left;
     width:120px;
-    height:100%;
+    height:115px;
     border-right-style:solid;
     border-right-width:1px;
     border-right-color:#969696;
-    vertical-align: top;
+    overflow:hidden;
 }
 
 .Cupon .first_field .title{
     width:120px; 
+    height:36px;
     float:left;
+    overflow:hidden;
     text-align:center;
     font-weight:bold;
-    color:#7C211E;
 }
 
 .Cupon .second_field{
     width:120px;
+    float:left;
+    height: 115px;
     border-right-style:solid;
     border-right-width:1px;
     border-right-color:#969696;
-    vertical-align: top;
-}
-
-.Cupon .second_field h1{
-    color: #CFCECE;
-    font-size:42px;
-    text-align:center;
-}
-.Cupon .second_field p{
-    color: #CFCECE;
-    font-size:12px;
-    text-align:justify;
+    overflow:hidden;
 }
 
 .Cupon .third_field{
-    width:550px;
+    width:270px;
+    float:left;
+    height: 115px;
     padding-left:5px;
-    vertical-align: top;
+    overflow:hidden;
 }
 
 .third_field .Details{
     font-style: italic;
+    height: 37px;
     width: 98%;
     font-size: 13pt;
     margin-bottom: 0px;
     font-weight:bold;
-    color:#7C211E;
+    overflow:hidden;
 }
 .third_field .valid
 {
@@ -996,10 +983,10 @@ html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
 }
 .third_field .Cupon_code{
     width:100%;
-    color: #7C211E;
+    color: #5A0A09;
     font-size:12pt;
     font-weight:bold;
-    
+    border-bottom: Solid 1px #FC6806;
     height: 35px;
     width:98%;
     overflow:hidden;
